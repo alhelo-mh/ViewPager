@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:coka_cola_task/data/list_data/coka_cola_list.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -61,7 +62,7 @@ class _ViewPagerState extends State<ViewPager> {
               });
             },
             controller: _pageController,
-            itemCount: 4,
+            itemCount: appModelList.length,
             itemBuilder: (context, index) {
               double t = isSelect == index ? 1 : 0.87;
               return TweenAnimationBuilder(
@@ -78,9 +79,8 @@ class _ViewPagerState extends State<ViewPager> {
                   width: double.infinity,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20),
-                      image: const DecorationImage(
-                          image: NetworkImage(
-                              'https://devstorageacco.blob.core.windows.net/pre-prod/_NOR9450_22092019153631.jpg'),
+                      image: DecorationImage(
+                          image: NetworkImage(appModelList[index].url),
                           fit: BoxFit.fill)),
                   child: DefaultTextStyle(
                       style: const TextStyle(color: Colors.white),
@@ -105,13 +105,13 @@ class _ViewPagerState extends State<ViewPager> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Text(
-                                    'נותן מתנה',
+                                    appModelList[index].title,
                                     style: TextStyle(
                                         fontSize: 24.sp,
                                         fontWeight: FontWeight.w800),
                                   ),
                                   Text(
-                                    'בואו נראה אם תצליח',
+                                    appModelList[index].subtitle,
                                     style: TextStyle(fontSize: 20.sp),
                                   ),
                                 ],
