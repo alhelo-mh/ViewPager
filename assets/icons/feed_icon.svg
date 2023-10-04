@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.935" height="20.3" viewBox="0 0 20.935 20.3">
+    <defs>
+        <style>
+            .cls-1{fill:#f40009}.cls-2{clip-path:url(#clip-path)}
+        </style>
+        <clipPath id="clip-path">
+            <path id="Rectangle_108" d="M0 0h20.935v20.3H0z" class="cls-1" data-name="Rectangle 108"/>
+        </clipPath>
+    </defs>
+    <g id="Feed_icon" data-name="Feed icon" transform="translate(-303)">
+        <g id="Group_284" data-name="Group 284" transform="translate(303)">
+            <g id="Group_283" class="cls-2" data-name="Group 283">
+                <path id="Path_218" d="M210.59 294.517a.994.994 0 0 0-.082-1.422l-9.319-8.154a1.162 1.162 0 0 0-1.515.018l-9.35 8.571a.988.988 0 0 0-.045 1.421l.234.244a1.022 1.022 0 0 0 1.4.108l.7-.626v9.162a1.017 1.017 0 0 0 1.017 1.017h3.645a1.017 1.017 0 0 0 1.017-1.017v-6.409h4.649v6.409a.961.961 0 0 0 .955 1.017h3.863a1.017 1.017 0 0 0 1.017-1.017V294.8l.431.378c.238.209.737.041 1.115-.374zm0 0" class="cls-1" data-name="Path 218" transform="translate(-189.999 -284.607)"/>
+            </g>
+        </g>
+    </g>
+</svg>
